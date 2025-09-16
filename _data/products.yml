@@ -1,24 +1,24 @@
 - name: 产品 A
-  image: images/11.jpg
+  image: /images/11.jpg
   alt: 智能设备正面图
   description: 高性能智能控制器，适用于工业自动化。
 
 - name: 产品 B
-  image: images/12.jpg
+  image: /images/12.jpg
   alt: 设备细节展示
   description: 小巧便携，支持无线连接。
 
 - name: 产品 C
-  image: images/13.jpg
+  image: /images/13.jpg
   alt: 产品C 实拍图
   description: 耐高温材料，持久耐用。
 
 - name: 产品 D
-  image: images/14.jpg
+  image: /images/14.jpg
   alt: 产品D 使用场景
   description: 适用于家庭和办公环境。
 
 - name: 产品 E
-  image: images/15.jpg
+  image: /images/15.jpg
   alt: 产品E 包装图
   description: 环保包装，附赠配件齐全。
