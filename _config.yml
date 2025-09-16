@@ -1,3 +1,12 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: inakio
+email: inkaio@inakio.com
+description: A simple site
+baseurl: ""
+url: "https://www.inkaio.com"
+
+# 如果你不改主题，先去掉 theme 字段或设为官方支持的主题
+theme: minima  # 这是 GitHub Pages 默认支持的主题
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
