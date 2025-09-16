@@ -6,6 +6,9 @@ permalink: /products/
 
 <h2>我们的产品系列</h2>
 
+<!-- 调试：确认数据被读取 -->
+<p><strong>调试信息：</strong>共找到 {{ site.data.products.size }} 个产品</p>
+
 <div class="product-grid">
   {% for product in site.data.products %}
     <div class="product-item">
