@@ -11,7 +11,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-  plugins:
+  
+  - jekyll-feed
   - jekyll-multiple-languages-plugin
 
 # 多语言配置

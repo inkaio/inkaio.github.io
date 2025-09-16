@@ -6,4 +6,3 @@ gem "csv"
 gem "webrick"
 gem "jekyll-multiple-languages-plugin"
 
-end
