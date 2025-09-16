@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 产品中心
-permalink: /products/
+permalink: /
 ---
 
 <h2>我们的产品系列</h2>
