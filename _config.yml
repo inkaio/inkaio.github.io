@@ -10,3 +10,22 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+  plugins:
+  - jekyll-multiple-languages-plugin
+
+# 多语言配置
+languages:
+  - en
+  - zh
+
+# 默认语言（可选）
+default_lang: zh
+
+# 排除不需要翻译的文件
+exclude_from_localization:
+  - assets/
+  - images/
+  - favicon.ico
+  - Gemfile
+  - Gemfile.lock
