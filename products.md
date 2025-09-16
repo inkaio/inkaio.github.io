@@ -10,7 +10,7 @@ permalink: /products/
   {% for product in site.data.products %}
     <div class="product-item">
       <h3>{{ product.name }}</h3>
-      <img src="{{ image }}" alt="{{ product.alt }}" style="max-width: 100%; height: auto;">
+      <img src="{{ product.image }}" alt="{{ product.alt }}" style="max-width: 100%; height: auto;">
       <p>{{ product.description }}</p>
     </div>
   {% endfor %}
