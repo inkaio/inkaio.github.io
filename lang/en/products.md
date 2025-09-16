@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Products
 permalink: /en/products/
 ---

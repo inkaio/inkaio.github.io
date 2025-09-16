@@ -15,10 +15,13 @@ plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
 
-# 多语言配置
 languages:
-  - en
-  - zh
+  - code: zh
+    name: 中文
+    url: /
+  - code: en
+    name: English
+    url: /en/
 
 # 默认语言（可选）
 default_lang: zh

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 产品中心
 permalink: /products/
 ---
