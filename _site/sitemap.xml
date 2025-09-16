@@ -4,7 +4,13 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/zh/contact/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/contact/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/en/contact/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
