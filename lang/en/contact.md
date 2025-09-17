@@ -21,7 +21,7 @@ permalink: /en/contact/
     <h3>Address</h3>
     <p>123 Tech Street<br>
     Innovation City, IC 12345<br>
-    United States</p>
+    USA</p>
   </div>
 </div>
 
