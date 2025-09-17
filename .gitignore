@@ -1,0 +1,21 @@
+# Jekyll 自动生成的网站目录
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# 日志文件
+log/
+*.log
+
+# 临时文件
+tmp/
+*~
+
+# 编辑器备份文件
+.DS_Store
+Thumbs.db
+
+# Ruby/Gem 相关（可选）
+.bundle/
+vendor/ruby
