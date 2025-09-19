@@ -36,10 +36,10 @@
         <!-- 语言切换按钮 -->
         {% if page.url contains '/en/' %}
           <!-- 当前是英文页，显示中文链接 -->
-          <a class="nav-link lang-switcher" href="{{ page.url | replace: '/en/', '/' }}">English</a>
+          <a class="nav-link lang-switcher" href="{{ page.url }}">English</a>
         {% else %}
           <!-- 当前是中文页，显示英文链接 -->
-          <a class="nav-link lang-switcher" href="/en{{ page.url }}">中文</a>
+          <a class="nav-link lang-switcher" href="{{ page.url }}">English</a>
         {% endif %}
       </div>
     </div>

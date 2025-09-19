@@ -1,0 +1,9 @@
+- name: Product A
+  image: /images/11.JPG
+  alt: Image of Product A
+  description: This is the detailed description of Product A.
+
+- name: Product B
+  image: /images/12.JPG
+  alt: Image of Product B
+  description: This is the detailed description of Product B.

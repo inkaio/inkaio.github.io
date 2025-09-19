@@ -1,0 +1,72 @@
+- alt: 蜜雪
+  description: 冰城
+  image: /images/p-17.jpg
+  name: 星巴克
+- alt: 肯得基
+  description: 今天星期四
+  image: /images/p-18.jpg
+  name: 麦当劳
+- alt: Smart device front view
+  description: High-performance smart controller for industrial automation.
+  image: /images/11.jpg
+  name: Product A
+- alt: Device detail display
+  description: Compact and portable, supports wireless connection.
+  image: /images/12.jpg
+  name: Product B
+- alt: Product C real shot
+  description: High-temperature resistant material, durable.
+  image: /images/13.jpg
+  name: Product C
+- alt: Product D usage scenario
+  description: Suitable for home and office environments.
+  image: /images/14.jpg
+  name: Product D
+- alt: Product E packaging
+  description: Eco-friendly packaging, complete with accessories.
+  image: /images/15.jpg
+  name: Product E
+- alt: 产品图片 6
+  description: 这是第 6 个产品
+  image: /images/p-06.jpg
+  name: 产品6
+- alt: 产品图片 7
+  description: 这是第 7 个产品
+  image: /images/p-07.jpg
+  name: 产品7
+- alt: 产品图片 8
+  description: 这是第 8 个产品
+  image: /images/p-08.jpg
+  name: 产品8
+- alt: 产品图片 9
+  description: 这是第 9 个产品
+  image: /images/p-09.jpg
+  name: 产品9
+- alt: 产品图片 10
+  description: 这是第 10 个产品
+  image: /images/p-10.jpg
+  name: 产品10
+- alt: 产品图片 11
+  description: 这是第 11 个产品
+  image: /images/p-11.jpg
+  name: 产品11
+- alt: 产品图片 12
+  description: 这是第 12 个产品
+  image: /images/p-12.jpg
+  name: 产品12
+- alt: 产品图片 13
+  description: 这是第 13 个产品
+  image: /images/p-13.jpg
+  name: 产品13
+- alt: 产品图片
+  description: 这是一个很棒的产品
+  image: /images/p-14.jpg
+  name: 我的产品
+- alt: sinopec
+  description: 全国500强
+  image: /images/p-15.jpg
+  name: 中国石化
+- alt: southern grid
+  description: 广东50强
+  image: /images/p-16.jpg
+  name: 南方电网
