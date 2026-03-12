@@ -3,6 +3,7 @@ layout: default
 title: "Happy Jekylling!"
 ---
 
-## You're ready to go!
+Kino Furniture
 
-Start developing your Jekyll website.
+coming soon!
+
