@@ -1,65 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kino Furniture</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Kino Furniture - Coming Soon</title>
+    <!-- 引入 Font Awesome 6.4.0（你已正确引用） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f6f0;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('123.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.25);
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            flex-direction: column;
+            color: white;
             text-align: center;
         }
-        header {
-            padding: 2rem;
-        }
+
         h1 {
-            color: #333;
-            font-size: 2.5rem;
+            font-size: 5rem;
+            font-weight: 700;
             letter-spacing: 2px;
-            margin-bottom: 1rem;
+            margin-bottom: 10px;
+            text-shadow: 0 4px 15px rgba(0,0,0,0.6);
         }
-        .tagline {
-            font-size: 1.1rem;
-            color: #777;
-            max-width: 600px;
-            margin: 0 auto 2rem;
+
+        p {
+            font-size: 2rem;
+            font-weight: 300;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.5);
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        footer {
+
+        /* 🟢 社交按钮 —— 右上角 */
+        .social-links {
             position: fixed;
-            bottom: 0;
-            width: 100%;
-            padding: 1rem;
-            background-color: #fff;
-            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            font-size: 0.9rem;
-            color: #999;
+            top: 40px;
+            right: 40px;
+            display: flex;
+            gap: 20px;
+            z-index: 10;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 2.2rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px); /* Safari 兼容 */
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-5px) scale(1.1);
+            background: white;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+        }
+
+        .social-links a.whatsapp:hover {
+            color: #25D366; /* WhatsApp 官方绿色 */
+        }
+
+        .social-links a.instagram:hover {
+            color: #E1306C; /* Instagram 渐变红粉（取主色） */
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            h1 { font-size: 3rem; }
+            p { font-size: 1.3rem; }
+            .social-links {
+                top: 20px;
+                right: 20px;
+                gap: 15px;
+            }
+            .social-links a {
+                width: 50px;
+                height: 50px;
+                font-size: 1.8rem;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Kino Furniture</h1>
-        
-        <!-- 图片部分 -->
-        <img src="pic/kino.jpg" alt="Kino Furniture Image">
-    </header>
 
-    <footer>
-        © 2026 Kino Furniture. All rights reserved.
-    </footer>
+    <!-- 背景图 -->
+    <div class="background"></div>
+
+    <!-- 中央文字 -->
+    <div class="overlay">
+        <h1>Kino Furniture</h1>
+        <p>coming soon!</p>
+    </div>
+
+    <!-- 🔗 社交按钮（已按你要求配置） -->
+    <div class="social-links">
+        <a href="https://wa.me/8613713033239" target="_blank" class="whatsapp" title="Contact on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com/stephenwan1224/" target="_blank" class="instagram" title="Follow on Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+
 </body>
 </html>
